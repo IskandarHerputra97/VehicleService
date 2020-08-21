@@ -10,6 +10,7 @@ import UIKit
 
 class HomePageViewController: UIViewController {
     @IBOutlet weak var vehicleTableView: UITableView!
+    @IBOutlet weak var addVehicleButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +24,11 @@ class HomePageViewController: UIViewController {
         vehicleTableView.reloadData()
         vehicleTableView.layoutIfNeeded()
         vehicleTableView.heightAnchor.constraint(equalToConstant: vehicleTableView.contentSize.height).isActive = true
+    }
+    
+    //MARK: - Action
+    @IBAction func addVehicleButtonDidTapped(_ sender: UIButton) {
+        navigationController?.navigateToAddVehiclePage()
     }
 }
 

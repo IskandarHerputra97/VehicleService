@@ -23,4 +23,9 @@ extension UINavigationController {
         let homePageVC: HomePageViewController = HomePageViewController()
         pushViewController(homePageVC, animated: true)
     }
+    
+    func navigateToAddVehiclePage() {
+        let addVehicleVC: AddVehicleViewController = AddVehicleViewController()
+        pushViewController(addVehicleVC, animated: true)
+    }
 }
