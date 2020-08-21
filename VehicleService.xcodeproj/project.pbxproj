@@ -20,6 +20,8 @@
 		603904B424F00B0C00CB2E4D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603904B224F00B0C00CB2E4D /* RegisterViewController.xib */; };
 		603904B824F00D4600CB2E4D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603904B624F00D4600CB2E4D /* LoginViewController.swift */; };
 		603904B924F00D4600CB2E4D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603904B724F00D4600CB2E4D /* LoginViewController.xib */; };
+		603904BC24F00F3400CB2E4D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603904BA24F00F3400CB2E4D /* HomePageViewController.swift */; };
+		603904BD24F00F3400CB2E4D /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603904BB24F00F3400CB2E4D /* HomePageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		603904B224F00B0C00CB2E4D /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		603904B624F00D4600CB2E4D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		603904B724F00D4600CB2E4D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		603904BA24F00F3400CB2E4D /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		603904BB24F00F3400CB2E4D /* HomePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 			children = (
 				603904A624F002A300CB2E4D /* HomeNonLoginViewController.swift */,
 				603904A724F002A300CB2E4D /* HomeNonLoginViewController.xib */,
+				603904BA24F00F3400CB2E4D /* HomePageViewController.swift */,
+				603904BB24F00F3400CB2E4D /* HomePageViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603904BD24F00F3400CB2E4D /* HomePageViewController.xib in Resources */,
 				603904B924F00D4600CB2E4D /* LoginViewController.xib in Resources */,
 				6039048024EFFE1300CB2E4D /* LaunchScreen.storyboard in Resources */,
 				6039047D24EFFE1300CB2E4D /* Assets.xcassets in Resources */,
@@ -324,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603904BC24F00F3400CB2E4D /* HomePageViewController.swift in Sources */,
 				603904B824F00D4600CB2E4D /* LoginViewController.swift in Sources */,
 				603904A824F002A300CB2E4D /* HomeNonLoginViewController.swift in Sources */,
 				603904B324F00B0C00CB2E4D /* RegisterViewController.swift in Sources */,

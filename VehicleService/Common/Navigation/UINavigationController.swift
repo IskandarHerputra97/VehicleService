@@ -18,4 +18,9 @@ extension UINavigationController {
         let registerPageVC: RegisterViewController = RegisterViewController()
         pushViewController(registerPageVC, animated: true)
     }
+    
+    func navigateToHomePage() {
+        let homePageVC: HomePageViewController = HomePageViewController()
+        pushViewController(homePageVC, animated: true)
+    }
 }

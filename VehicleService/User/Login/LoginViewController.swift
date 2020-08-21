@@ -9,7 +9,13 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    @IBOutlet weak var emailTitleLabel: UILabel!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTitleLabel: UILabel!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBOutlet weak var loginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -17,5 +23,10 @@ class LoginViewController: UIViewController {
     //MARK: - Setup
     private func setupView() {
         title = "Login Page"
+    }
+    
+    //MARK: - Action
+    @IBAction func loginButtonDidTapped(_ sender: UIButton) {
+        navigationController?.navigateToHomePage()
     }
 }
