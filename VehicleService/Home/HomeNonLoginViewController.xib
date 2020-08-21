@@ -41,12 +41,18 @@
                                             <state key="normal" title="LOGIN">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
+                                            <connections>
+                                                <action selector="loginButtonDidTapped:" destination="-1" eventType="touchUpInside" id="9e4-wC-Gxm"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqw-IX-rav">
                                             <rect key="frame" x="0.0" y="133.5" width="359" height="56.5"/>
                                             <state key="normal" title="REGISTER">
                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
+                                            <connections>
+                                                <action selector="registerButtonDidTapped:" destination="-1" eventType="touchUpInside" id="Epi-oL-Dl2"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>

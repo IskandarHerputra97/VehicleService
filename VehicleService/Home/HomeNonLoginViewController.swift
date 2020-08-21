@@ -33,4 +33,13 @@ class HomeNonLoginViewController: UIViewController {
         registerButton.layer.borderWidth = 1.0
         registerButton.layer.borderColor = UIColor.black.cgColor
     }
+    
+    //MARK: - Action
+    @IBAction func loginButtonDidTapped(_ sender: UIButton) {
+        navigationController?.navigateToLoginPage()
+    }
+    
+    @IBAction func registerButtonDidTapped(_ sender: UIButton) {
+        navigationController?.navigateToRegisterPage()
+    }
 }
