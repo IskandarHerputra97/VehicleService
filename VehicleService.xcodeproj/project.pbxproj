@@ -22,6 +22,8 @@
 		603904B924F00D4600CB2E4D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603904B724F00D4600CB2E4D /* LoginViewController.xib */; };
 		603904BC24F00F3400CB2E4D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603904BA24F00F3400CB2E4D /* HomePageViewController.swift */; };
 		603904BD24F00F3400CB2E4D /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603904BB24F00F3400CB2E4D /* HomePageViewController.xib */; };
+		603904C024F0157600CB2E4D /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603904BE24F0157600CB2E4D /* VehicleTableViewCell.swift */; };
+		603904C124F0157600CB2E4D /* VehicleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603904BF24F0157600CB2E4D /* VehicleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		603904B724F00D4600CB2E4D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		603904BA24F00F3400CB2E4D /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		603904BB24F00F3400CB2E4D /* HomePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		603904BE24F0157600CB2E4D /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
+		603904BF24F0157600CB2E4D /* VehicleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 				603904A724F002A300CB2E4D /* HomeNonLoginViewController.xib */,
 				603904BA24F00F3400CB2E4D /* HomePageViewController.swift */,
 				603904BB24F00F3400CB2E4D /* HomePageViewController.xib */,
+				603904BE24F0157600CB2E4D /* VehicleTableViewCell.swift */,
+				603904BF24F0157600CB2E4D /* VehicleTableViewCell.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 				6039048024EFFE1300CB2E4D /* LaunchScreen.storyboard in Resources */,
 				6039047D24EFFE1300CB2E4D /* Assets.xcassets in Resources */,
 				603904A924F002A300CB2E4D /* HomeNonLoginViewController.xib in Resources */,
+				603904C124F0157600CB2E4D /* VehicleTableViewCell.xib in Resources */,
 				603904B424F00B0C00CB2E4D /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603904C024F0157600CB2E4D /* VehicleTableViewCell.swift in Sources */,
 				603904BC24F00F3400CB2E4D /* HomePageViewController.swift in Sources */,
 				603904B824F00D4600CB2E4D /* LoginViewController.swift in Sources */,
 				603904A824F002A300CB2E4D /* HomeNonLoginViewController.swift in Sources */,

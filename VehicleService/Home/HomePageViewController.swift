@@ -9,7 +9,8 @@
 import UIKit
 
 class HomePageViewController: UIViewController {
-
+    @IBOutlet weak var vehicleTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -17,5 +18,21 @@ class HomePageViewController: UIViewController {
     //MARK: - Setup
     private func setupView() {
         title = "VehicleService"
+        
+        vehicleTableView.register(UINib(nibName: "VehicleTableViewCell", bundle: nil), forCellReuseIdentifier: "VehicleTableViewCell")
+        vehicleTableView.reloadData()
+        vehicleTableView.layoutIfNeeded()
+        vehicleTableView.heightAnchor.constraint(equalToConstant: vehicleTableView.contentSize.height).isActive = true
+    }
+}
+
+extension HomePageViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "VehicleTableViewCell", for: indexPath)
+        return cell
     }
 }

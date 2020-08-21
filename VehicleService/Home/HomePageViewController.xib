@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomaPageViewController" customModule="VehicleService" customModuleProvider="target">
             <connections>
+                <outlet property="vehicleTableView" destination="bwh-Wv-5xX" id="bmc-bx-Hvz"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -25,10 +26,13 @@
                             <subviews>
                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bwh-Wv-5xX">
                                     <rect key="frame" x="8" y="108" width="398" height="650"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="650" id="gw0-DD-YMx"/>
+                                        <constraint firstAttribute="height" constant="650" id="ubO-cK-Ys9"/>
                                     </constraints>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="Y5w-51-9hr"/>
+                                        <outlet property="delegate" destination="-1" id="MY3-E5-G0M"/>
+                                    </connections>
                                 </tableView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaT-f2-mR4">
                                     <rect key="frame" x="8" y="791" width="398" height="50"/>
