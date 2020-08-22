@@ -20,6 +20,10 @@ class HomePageViewController: UIViewController {
     private func setupView() {
         title = "VehicleService"
         
+        let logoutBarButton = UIBarButtonItem(title: "LOGOUT", style: .plain, target: self, action: #selector(logoutButtonDidTapped(_:)))
+        logoutBarButton.tintColor = .red
+        navigationItem.rightBarButtonItem = logoutBarButton
+        
         vehicleTableView.register(UINib(nibName: "VehicleTableViewCell", bundle: nil), forCellReuseIdentifier: "VehicleTableViewCell")
         vehicleTableView.reloadData()
         vehicleTableView.layoutIfNeeded()
@@ -29,6 +33,10 @@ class HomePageViewController: UIViewController {
     //MARK: - Action
     @IBAction func addVehicleButtonDidTapped(_ sender: UIButton) {
         navigationController?.navigateToAddVehiclePage()
+    }
+    
+    @objc private func logoutButtonDidTapped(_ sender: UIBarButtonItem) {
+        navigationController?.popToRootViewController(animated: true)
     }
 }
 
