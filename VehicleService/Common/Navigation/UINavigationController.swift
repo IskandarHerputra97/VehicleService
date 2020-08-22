@@ -38,4 +38,9 @@ extension UINavigationController {
         let maintenanceVC: MaintenanceViewController = MaintenanceViewController()
         pushViewController(maintenanceVC, animated: true)
     }
+    
+    func navigateToAddMaintenancePage() {
+        let addMaintenanceVC: AddMaintenanceViewController = AddMaintenanceViewController()
+        pushViewController(addMaintenanceVC, animated: true)
+    }
 }

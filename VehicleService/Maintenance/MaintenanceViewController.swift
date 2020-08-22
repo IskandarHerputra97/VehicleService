@@ -24,6 +24,6 @@ class MaintenanceViewController: UIViewController {
     
     //MARK: - Action
     @objc private func addButtonDidTapped(_ sender: UIBarButtonItem) {
-        print("add button did tapped")
+        navigationController?.navigateToAddMaintenancePage()
     }
 }
