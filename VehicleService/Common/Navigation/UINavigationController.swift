@@ -28,4 +28,9 @@ extension UINavigationController {
         let addVehicleVC: AddVehicleViewController = AddVehicleViewController()
         pushViewController(addVehicleVC, animated: true)
     }
+    
+    func navigateToVehicleDetailPage() {
+        let vehicleDetailVC: VehicleDetailViewController = VehicleDetailViewController()
+        pushViewController(vehicleDetailVC, animated: true)
+    }
 }

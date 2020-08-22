@@ -41,4 +41,8 @@ extension HomePageViewController: UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "VehicleTableViewCell", for: indexPath)
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        navigationController?.navigateToVehicleDetailPage()
+    }
 }
