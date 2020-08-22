@@ -24,6 +24,7 @@ class VehicleDetailViewController: UIViewController {
     
     @IBOutlet weak var saveDataButton: UIButton!
     @IBOutlet weak var maintenanceButton: UIButton!
+    @IBOutlet weak var deleteVehicleButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,8 +40,13 @@ class VehicleDetailViewController: UIViewController {
     
     //MARK: - Action
     @IBAction func saveDataButtonDidTapped(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
     }
     
     @IBAction func maintenanceButtonDidTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func deleteVehicleButtonDidTapped(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
     }
 }

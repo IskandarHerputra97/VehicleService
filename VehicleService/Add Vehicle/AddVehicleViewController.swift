@@ -64,6 +64,7 @@ class AddVehicleViewController: UIViewController {
     }
     
     @IBAction func addVehicleButtonDidTapped(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
     }
 }
 
