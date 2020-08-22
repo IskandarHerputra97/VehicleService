@@ -33,4 +33,9 @@ extension UINavigationController {
         let vehicleDetailVC: VehicleDetailViewController = VehicleDetailViewController()
         pushViewController(vehicleDetailVC, animated: true)
     }
+    
+    func navigateToMaintenancePage() {
+        let maintenanceVC: MaintenanceViewController = MaintenanceViewController()
+        pushViewController(maintenanceVC, animated: true)
+    }
 }

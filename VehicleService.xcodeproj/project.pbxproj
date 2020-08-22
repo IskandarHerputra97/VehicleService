@@ -28,6 +28,8 @@
 		603904C624F01B6500CB2E4D /* AddVehicleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603904C424F01B6500CB2E4D /* AddVehicleViewController.xib */; };
 		603904CA24F106FE00CB2E4D /* VehicleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603904C824F106FE00CB2E4D /* VehicleDetailViewController.swift */; };
 		603904CB24F106FE00CB2E4D /* VehicleDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603904C924F106FE00CB2E4D /* VehicleDetailViewController.xib */; };
+		603904CF24F10D8900CB2E4D /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603904CD24F10D8900CB2E4D /* MaintenanceViewController.swift */; };
+		603904D024F10D8900CB2E4D /* MaintenanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603904CE24F10D8900CB2E4D /* MaintenanceViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		603904C424F01B6500CB2E4D /* AddVehicleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddVehicleViewController.xib; sourceTree = "<group>"; };
 		603904C824F106FE00CB2E4D /* VehicleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailViewController.swift; sourceTree = "<group>"; };
 		603904C924F106FE00CB2E4D /* VehicleDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleDetailViewController.xib; sourceTree = "<group>"; };
+		603904CD24F10D8900CB2E4D /* MaintenanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceViewController.swift; sourceTree = "<group>"; };
+		603904CE24F10D8900CB2E4D /* MaintenanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaintenanceViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 		6039046F24EFFE0500CB2E4D /* VehicleService */ = {
 			isa = PBXGroup;
 			children = (
+				603904CC24F10D7000CB2E4D /* Maintenance */,
 				603904C724F106E800CB2E4D /* Vehicle Detail */,
 				603904C224F01B4D00CB2E4D /* Add Vehicle */,
 				603904AE24F00AE900CB2E4D /* User */,
@@ -229,6 +234,15 @@
 				603904C924F106FE00CB2E4D /* VehicleDetailViewController.xib */,
 			);
 			path = "Vehicle Detail";
+			sourceTree = "<group>";
+		};
+		603904CC24F10D7000CB2E4D /* Maintenance */ = {
+			isa = PBXGroup;
+			children = (
+				603904CD24F10D8900CB2E4D /* MaintenanceViewController.swift */,
+				603904CE24F10D8900CB2E4D /* MaintenanceViewController.xib */,
+			);
+			path = Maintenance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +357,7 @@
 				603904C624F01B6500CB2E4D /* AddVehicleViewController.xib in Resources */,
 				603904C124F0157600CB2E4D /* VehicleTableViewCell.xib in Resources */,
 				603904CB24F106FE00CB2E4D /* VehicleDetailViewController.xib in Resources */,
+				603904D024F10D8900CB2E4D /* MaintenanceViewController.xib in Resources */,
 				603904B424F00B0C00CB2E4D /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603904CF24F10D8900CB2E4D /* MaintenanceViewController.swift in Sources */,
 				603904C524F01B6500CB2E4D /* AddVehicleViewController.swift in Sources */,
 				603904C024F0157600CB2E4D /* VehicleTableViewCell.swift in Sources */,
 				603904BC24F00F3400CB2E4D /* HomePageViewController.swift in Sources */,

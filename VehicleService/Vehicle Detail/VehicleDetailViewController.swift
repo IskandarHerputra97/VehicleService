@@ -44,6 +44,7 @@ class VehicleDetailViewController: UIViewController {
     }
     
     @IBAction func maintenanceButtonDidTapped(_ sender: UIButton) {
+        navigationController?.navigateToMaintenancePage()
     }
     
     @IBAction func deleteVehicleButtonDidTapped(_ sender: UIButton) {
